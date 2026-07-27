@@ -6,9 +6,7 @@ Proyecto de análisis de datos aplicado a un proceso real de remuneraciones, des
 
 La solución permite seguir el proceso completo:
 
-**Solicitudes recibidas → validación de reglas de negocio → conciliación con SAP → resultado de la solicitud → personas procesadas → monto mensual pagado.**
-
-El dashboard fue desarrollado inicialmente en Power BI para uso empresarial y posteriormente replicado en Tableau para disponer de una versión pública e interactiva.
+**Solicitudes recibidas → validación de reglas de negocio → conciliación con el sistema de remuneraciones; → resultado de la solicitud → personas procesadas → monto mensual pagado.**
 
 ---
 
