@@ -1,8 +1,8 @@
-# Gestión y conciliación de solicitudes de anticipo en SAP
+# Gestión y conciliación de solicitudes de anticipo en el sistema de remuneraciones
 
 ## Descripción
 
-Proyecto de análisis de datos aplicado a un proceso real de remuneraciones, desarrollado para automatizar validaciones, consolidar solicitudes de anticipo, conciliar su procesamiento en SAP y analizar las personas y montos considerados mes a mes durante 2026.
+Proyecto de análisis de datos aplicado a un proceso real de remuneraciones, desarrollado para automatizar validaciones, consolidar solicitudes de anticipo, conciliar su procesamiento en el sistema de remuneraciones y analizar las personas y montos considerados mes a mes durante 2026.
 
 La solución permite seguir el proceso completo:
 
@@ -19,7 +19,7 @@ Analizar y conciliar las solicitudes de anticipo registradas durante 2026, compa
 El análisis busca responder preguntas como:
 
 - ¿Cuántas solicitudes se reciben cada mes?
-- ¿Qué proporción se registra en SAP?
+- ¿Qué proporción se registra en el sistema de remuneraciones?
 - ¿Cuáles quedan fuera del corte?
 - ¿Qué solicitudes corresponden a duplicados, reemplazos o anulaciones?
 - ¿Cuántas personas reciben anticipo en cada periodo?
@@ -77,7 +77,7 @@ Entre las principales validaciones se encuentran:
 - cumplimiento de la fecha de corte;
 - ausencia de solicitudes duplicadas;
 - identificación de solicitudes reemplazadas;
-- validación de registros y montos existentes en SAP;
+- validación de registros y montos existentes en el sistema de remuneraciones;
 - vigencia contractual durante el periodo correspondiente.
 
 
@@ -114,7 +114,6 @@ La conciliación compara:
 - **Power Query:** limpieza y transformación de datos.
 - **Power BI:** modelado, medidas DAX y desarrollo de la solución empresarial.
 - **Tableau:** replicación y publicación del dashboard interactivo.
-- **Excel:** conciliaciones y validaciones complementarias.
 - **SAP ERP:** fuente de registros y vigencias de anticipos.
 
 ---
@@ -129,7 +128,7 @@ Resume el volumen de solicitudes, su evolución mensual, los tipos de anticipo y
 
 ### 2. Detalle de solicitudes
 
-Permite revisar cada ticket y comparar la solicitud con el registro encontrado en SAP, incluyendo fechas, montos y resultado de conciliación.
+Permite revisar cada ticket y comparar la solicitud con el registro encontrado en el sistema de remuneraciones;, incluyendo fechas, montos y resultado de conciliación.
 
 ### 3. Pagos mensuales
 
@@ -142,10 +141,10 @@ Muestra las personas y montos procesados por mes, el promedio por persona, las v
 Durante el periodo analizado se conciliaron **4.607 solicitudes de anticipo**.
 
 - El **68,5 %** fue registrado en SAP durante el mes correspondiente.
-- Al incluir los registros programados para el mes siguiente, el **72,3 %** de las solicitudes generó un procesamiento en SAP.
+- Al incluir los registros programados para el mes siguiente, el **72,3 %** de las solicitudes generó un procesamiento en el sistema de remuneraciones;.
 - El **8,0 %** quedó fuera de corte sin registro.
 - El **5,0 %** correspondió a anulaciones.
-- El **1,8 %** no presentó registro en SAP.
+- El **1,8 %** no presentó registro en el sistema de remuneraciones;.
 - El resto correspondió principalmente a solicitudes duplicadas, reemplazadas, registros vigentes con montos distintos o casos que no requerían una modificación.
 
 El análisis permitió comprobar que el volumen de solicitudes no representa directamente la cantidad de personas procesadas, ya que una misma persona puede ingresar varias solicitudes durante el año.
@@ -157,7 +156,7 @@ El análisis combina distintos niveles de granularidad:
 - **Solicitud:** cada ticket ingresado.
 - **Persona:** trabajador único.
 - **Persona-mes:** persona contabilizada una vez en cada mes procesado.
-- **Vigencia:** registro de anticipo activo en SAP.
+- **Vigencia:** registro de anticipo activo en el sistema de remuneraciones;.
 
 Una persona puede generar varias solicitudes durante el año, pero se contabiliza una sola vez dentro de cada mes en que recibe el anticipo.
 
