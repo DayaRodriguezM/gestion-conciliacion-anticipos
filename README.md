@@ -177,15 +177,15 @@ Los identificadores personales fueron reemplazados por códigos secuenciales.
 
 ### Overview
 
-![Overview](images/overview.png)
+![Overview](images/Overview.png)
 
 ### Detalle de solicitudes
 
-![Detalle de solicitudes](images/detalle.png)
+![Detalle de solicitudes](images/Detalle.png)
 
 ### Pagos mensuales
 
-![Pagos mensuales](images/pagos-mensuales.png)
+![Pagos mensuales](images/Pagos%20Mensuales.png)
 
 ## Dashboard interactivo
 
