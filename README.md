@@ -181,7 +181,7 @@ Los identificadores personales fueron reemplazados por códigos secuenciales.
 
 ### Detalle de solicitudes
 
-![Detalle de solicitudes](./images/Detalle.png)
+![Detalle de solicitudes](images/Detalle%20.png)
 
 ### Pagos mensuales
 
