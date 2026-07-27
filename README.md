@@ -177,19 +177,19 @@ Los identificadores personales fueron reemplazados por códigos secuenciales.
 
 ### Overview
 
-![Overview](images/tableau-overview.png)
+![Overview](images/overview.png)
 
 ### Detalle de solicitudes
 
-![Detalle de solicitudes](images/tableau-detalle.png)
+![Detalle de solicitudes](images/detalle.png)
 
 ### Pagos mensuales
 
-![Pagos mensuales](images/tableau-pagos-mensuales.png)
+![Pagos mensuales](images/pagos-mensuales.png)
 
 ## Dashboard interactivo
 
-[Explorar el dashboard en Tableau Public](COLOCAR_ENLACE_TABLEAU)
+[[Explorar el dashboard en Tableau Public](COLOCAR_ENLACE_TABLEAU)](https://public.tableau.com/views/GestinyResultadodeSolicitudesAnticipo2026/Dashboard1?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
